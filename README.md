@@ -1,5 +1,9 @@
 # Terraform을 이용한 AWS S3 및 EC2 설정
 
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=Linux&logoColor=black"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=Amazon%20AWS&logoColor=white"/> <img src="https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=Terraform&logoColor=white"/>
+<img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/>
+
+
 ## 🌐 실습 환경
 Ubuntu 22.04 LTS
 
