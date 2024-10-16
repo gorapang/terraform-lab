@@ -20,6 +20,8 @@ sudo su -
 ```
 
 - **Terraform 설치**
+  
+  Terraform 설치가 완료되면 `terraform -version` 명령어로 설치를 확인한다.
 ```bash
 # wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 
@@ -32,7 +34,19 @@ sudo su -
 # exit
 ```
 
-Terraform 설치가 완료되면 `terraform -version` 명령어로 설치를 확인한다.
+<br>
+
+- **`-auto-approve`**
+
+  Terraform이 리소스를 생성하거나 수정할 때 자동으로 승인하는 옵션
+  
+  `terraform apply` 시 사용자에게 별도로 "yes"를 입력하라는 프롬프트 없이 바로 실행되도록 한다.
+  
+```bash
+terraform apply -auto-approve
+```
+
+
 
 ---
 
